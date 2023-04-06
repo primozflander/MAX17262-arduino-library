@@ -170,6 +170,7 @@ void MAX17262::writeRegister(uint8_t reg, uint16_t dat)
     ptr->write(reg);
     ptr->write(dat);
     ptr->write(dat >> 8);
+    ptr->endTransmission();
 }
 
 uint16_t MAX17262::readRegister(uint8_t reg)
@@ -181,6 +182,7 @@ uint16_t MAX17262::readRegister(uint8_t reg)
     ptr->requestFrom(DEVICE_ADDRESS, 2);
     temp = (uint16_t)ptr->read();
     temp |= (uint16_t)ptr->read() << 8;
+    ptr->endTransmission();
     return temp;
 }
 
