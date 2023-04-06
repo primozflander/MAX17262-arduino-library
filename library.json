@@ -1,0 +1,23 @@
+{
+    "name": "MAX17262 Fuel Gauge",
+    "version": "1.0.0",
+    "description": "Arduino library for interfacing Max 17262 fuel gauge",
+    "keywords": "max17262, arduino, fuel gauge",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/primozflander/MAX17262-arduino-library.git"
+    },
+    "authors":
+    [
+      {
+        "name": "Primoz Flander",
+        "email": "primoz.flander@gmail.com",
+        "url": "https://primozflander.wordpress.com/contact",
+        "maintainer": true
+      }
+    ],
+    "license": "MIT",
+    "frameworks": "*",
+    "platforms": "*"
+  }
