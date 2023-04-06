@@ -1,6 +1,6 @@
 {
     "name": "MAX17262 Fuel Gauge",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Arduino library for interfacing Max 17262 fuel gauge",
     "keywords": "max17262, arduino, fuel gauge",
     "repository":
